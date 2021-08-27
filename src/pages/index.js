@@ -30,7 +30,7 @@ const IndexPage = () => {
     <WheelComponent
       segments={segments}
       segColors={segColors}
-      winningSegment='won 10'
+      // winningSegment='won 10'
       onFinished={(winner) => onFinished(winner)}
       primaryColor='black'
       contrastColor='white'
